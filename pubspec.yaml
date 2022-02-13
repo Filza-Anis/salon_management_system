@@ -50,7 +50,10 @@ flutter:
     - images/background.jpg
     - images/google.png
     - images/facebook.png
-
+    - images/modify.jpeg
+    - images/feedback.jpg
+    - images/cancel.jpeg
+    - images/appointment.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
