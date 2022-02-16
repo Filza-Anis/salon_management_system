@@ -10,11 +10,13 @@ class _LogInFormState extends State<LogInForm> {
   bool _isObscure = true;
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        buildInputForm('Email', false),
-        buildInputForm('Password', true),
-      ],
+    return Scaffold(
+      body: Column(
+        children: [
+          buildInputForm('Email', false),
+          buildInputForm('Password', true),
+        ],
+      ),
     );
   }
 

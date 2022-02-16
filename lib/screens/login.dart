@@ -49,6 +49,8 @@ class LogInScreen extends StatelessWidget {
                       style: textButton.copyWith(
                         decoration: TextDecoration.underline,
                         decorationThickness: 1,
+                         color: new Color(0xFFFBE9E7),
+           
                       ),
                     ),
                   ),
